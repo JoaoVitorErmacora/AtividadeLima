@@ -3,7 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Formulário</title>
+    
+    <link rel="stylesheet" href="./styles/vitoria.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="images/image.png" alt="" />
+      <nav>
+        <ul>
+          <li><a href="#index">Home</a></li>
+          <li><a href="#marketplace">Marketplace</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="" >
+        <h1>Formulário de Cadastro</h1>
+        
+        <div class="nomeEmail">
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required />
+          </div>
+  
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+        </div>
+          
+        <div>
+          <label for="telefone">Telefone:</label>
+          <input type="tel" name="telefone" id="telefone" required />
+        </div>
+
+        <div>
+          <label for="msg">Mensagem:</label>
+          <textarea name="msg" id="msg" rows="8"></textarea> 
+        </div>
+
+       <input class="btn" type="submit" value="Enviar" />
+        </form>
+      </main>
+    </form>
+    <footer>
+      <section>
+        Links
+        <ul>
+          <li>Home</li>
+          <li>Marketplace</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </section>
+
+      <section>
+        Suporte
+        <ul>
+          <li>FAQ</li>
+          <li>Como Funciona</li>
+          <li>Regras de Devolução</li>
+        </ul>
+      </section>
+
+      <section>
+        Nosso Contato
+        <ul>
+          <li>Telefone: (00)1234-5678</li>
+          <li>Email: contato@exemplo.com</li>
+        </ul>
+      </section>
+    </footer>
+  </body>
 </html>
