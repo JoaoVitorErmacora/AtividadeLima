@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+main {
+  height: 100vh;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main form {
+  width: 80%;
+
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main form h1 {
+  color: white;
+  cursor: pointer;
+}
+
+main form .nomeEmail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main form .nomeEmail div {
+  width: 49%;
+}
+
+main form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+main form div label {
+  color: white;
+}
+
+main form div input,
+main form div textarea {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  padding: 10px;
+  transition: 0.3s ease;
+  color: white;
+}
+
+main form div input:focus,
+main form div textarea:focus {
+  outline: 0;
+  border: none;
+  border: 1px solid white;
+}
+
+main form .btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+header {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  height: 100px;
+}
+
+header img {
+  width: 120px;
+  height: 70%;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: red;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  color: red;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer section ul {
+  color: white;
+}
