@@ -36,7 +36,8 @@ header nav ul li a {
 div {
   display: flex;
   flex-direction: column;
-  margin-top: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 div h2 {
