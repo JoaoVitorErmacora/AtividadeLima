@@ -1,0 +1,19 @@
+header {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+}
+.icone {
+  width: 20px;
+  height: 70%;
+}
+
+#header {
+  background-color: rgba (0, 0, 0, 0.6);
+  background-color: gray;
+}
+
+#footer {
+  background-color: rgba (0, 0, 0, 0.6);
+  background-color: gray;
+}
