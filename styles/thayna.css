@@ -33,6 +33,21 @@ header nav ul li a {
   color: red;
 }
 
+div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+div h2 {
+  font-size: medium;
+}
+
+div a {
+  color: white;
+  font-size: medium;
+}
+
 footer {
   bottom: 0;
   position: fixed;
